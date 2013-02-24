@@ -1,0 +1,20 @@
+{
+  "name": "study-modan-dev",
+  "version": "0.0.1",
+  "description": "study modan web development environ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Yamaguchi Eikichi",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.4.0",
+    "grunt-contrib-sass": "~0.2.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt": "~0.4.0"
+  }
+}

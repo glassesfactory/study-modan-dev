@@ -1,0 +1,8 @@
+*.pyc
+src
+lib
+include
+bin
+node_modules
+slide/*.png
+assets/js/components

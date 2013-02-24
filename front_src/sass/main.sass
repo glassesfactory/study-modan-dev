@@ -1,0 +1,114 @@
+$borderColor: #e7e7e7
+body
+  color : #333333
+
+body
+  padding-bottom: -60px
+
+body > footer
+  font-size: 10px
+  line-height: 60px
+  text-align : center
+  height : 60px
+  background: #f2f2f2
+  text-shadow: 1px 1px 1px rgba(255,255,255,1)
+  width: 100%
+  // position : absolute
+  // bottom : 0
+
+#container
+  position: relative
+  height : 100%
+  padding-bottom : 20px
+
+#main
+  width: 500px
+  border : 1px solid $borderColor
+  border-radius: 4px
+  margin-bottom: 20px
+  box-shadow: 1px 1px 4px 2px rgba(200,200,200,0.3)
+  background: #ffffff
+  z-index: 1000
+  position : absolute
+
+  article
+    cursor: pointer
+    padding: 10px
+    border-bottom: 1px solid $borderColor
+
+    .icon, .tweet
+      float: left
+    .icon
+      width: 50px
+    .tweet
+      width: 420px
+      margin-left: 10px
+      header
+        font-weight: bold
+      footer
+        width: 100%
+        text-align: right
+        font-size: 12px
+        color : #999999
+  article:after
+    content: ''
+    clear : both
+    display : table
+  article:last-child
+    border-bottom : none
+
+.detail
+  background: #f9f9f9
+  width: 410px
+  border : 1px solid $borderColor
+  padding: 10px
+  border-radius: 4px
+  margin-top : 10px
+  margin-bottom: 20px
+  box-shadow: 1px 1px 4px 2px rgba(200,200,200,0.3)
+  position : absolute
+  z-index: 1
+  header
+    .icon, .name
+      float: left
+    .name
+      margin-left: 10px
+      font-weight: bold
+    .close
+      position : absolute
+      top : 10px
+      right: 10px
+  .tweet
+    margin-top: 15px
+    font-size: 18px
+  footer
+    width: 100%
+    font-size: 12px
+    color: #999999
+    text-align: right
+  header:after
+    content: ''
+    clear: both
+    display: table
+
+#newContainer
+  width : 400px
+  height: 180px
+  background : #ffffff
+  border-radius : 5px
+  position : absolute
+  padding : 15px
+  z-index: 9999
+  left : 50%
+  top : 100px
+  box-shadow : 1px 1px 5px 3px rgba(127,127,127, 0.5)
+  textarea
+    width : 385px
+    height : 60px
+  header
+    position : relative
+    width : auto
+    .close
+      position: absolute
+      top : -15px
+      right : 0

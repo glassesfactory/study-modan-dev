@@ -1,0 +1,8 @@
+Flask==0.9
+Jinja2==2.6
+Werkzeug==0.8.3
+distribute==0.6.35
+mongoengine==0.7.9
+pymongo==2.4.2
+-e git+https://github.com/matsumos/slimish-jinja2.git@d7307d0f916301fab0a9899dfa341b313800e025#egg=slimish_jinja-dev
+wsgiref==0.1.2
